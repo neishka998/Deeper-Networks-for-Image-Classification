@@ -1,4 +1,4 @@
-# DeeperCNNmodels_ImageClassification
+# Deeper Networks for Image Classification
 
 Training Deeper Convolutional Neural Networks from scratch for Image Classification probelm on MNIST & CIFAR10. Models used are:
 * VGG16 & VGG19
