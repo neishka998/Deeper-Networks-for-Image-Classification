@@ -24,7 +24,7 @@ From both variation of VGG, out of 3 fully connected convolutional layers, 2 of 
 
 ReLU activation function is used for all the hidden layers in the network.
 
-### *1. GoogleNet*
+### *2. GoogleNet*
 <img align="left" src="https://github.com/neishka998/Deeper-Networks-for-Image-Classification/blob/main/images/Screenshot%202021-05-26%20at%2012.57.33%20AM.png" alt="alt text" width="450" height="300">
 
 In this experiment, Inception Net V1 is used (GoogleNet). This architecture is made up of 22 layers and has a total of 9 inception modules (27 layers including pooling layers). With an Inception Module, multiple filter sizes can be used in a single image block, which is then concatenated and transferred to the next layer. It uses global average pooling at the end of the previous inception module. The final layer is a linear layer with 1000-unit softmax activation functions, which corresponds to the 1000 classes of ImageNet dataset. However, the experiment used datasets (CIFAR10 and MNIST) for only 10 classes, and the output channels in the network were modified to 10. A dropout layer (40%) is utilized just before the linear layer.
